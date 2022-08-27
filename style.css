@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family:"Papyrus" ;
+    background-image: url(/assets/FZEQb6.main-background.png);
+    
+}
+
+h1{
+    color: white;
+    font-size: 90px;
+    padding-bottom: 50px;
+}
+
+h2{
+    color: white;
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+
+p{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 30px;
+    line-height: 30px ;
+}
+
+li{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+}
+.hero{
+    display: flex;
+   width: 80%; 
+   margin: auto;
+   gap: 50px;
+}
+
+button{
+    padding: 20px,40px;
+    font-size: 18px;
+    font-weight: bold;
+}

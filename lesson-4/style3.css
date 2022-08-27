@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+body{
+    background: #22252B;
+    font-family: Century Gothic;
+}
+.header{
+    display: flex;
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+    justify-content:space-between;
+    color: #C1C1C1;
+}
+.hero{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+    justify-content: space-between;
+    gap: 20px;
+}
+.section-1{
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+.section-2{
+    width: 80%;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.section-3{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    gap: 20px;    
+}
+.part{
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    
+    margin: auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+.summary{
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+    gap: 20px;
+}
+.content-main{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+a{
+    color:  #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+}
+h3{
+    color: #48f25b;
+}
+h4{
+    color: #FFFFFF;
+}
+.white{
+    color: whitesmoke;
+}
+
+h5{
+    color: #48f25b;
+}
+h1,p{
+    color: white;
+}
+h3{
+    font-size: 18px;
+    color:  #48F25B;
+    ;
+}
+h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+    line-height: 80px;
+
+}
+h2{
+    font-size: 24px;
+    color: #C1C1C1;
+}
+p{
+    font-size: 16px;
+    gap: 20px;
+}
+.green{
+    color: #48f25b;
+}
+button{
+    padding: 15px 35px;
+    background-color: #3EB24B;
+    color: white;
+    border-radius: 40px;
+    border: none;
+}
+img{
+    width:100%;
+}
+.hero-left{
+    width: 45%;
+}
+.hero-right{
+    width: 40%;
+}
